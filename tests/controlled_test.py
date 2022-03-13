@@ -10,7 +10,7 @@ class ControlledTests(unittest.TestCase):
         time_list = [
             1238972321, 1238972456, 1238972618, 1238972899, 1248472489, 1258861829
         ]
-        
+
         computed_result = compute_highest_affinity.highest_affinity(
             site_list, user_list, time_list)
         expected_result = ("a.com", "b.com")
