@@ -10,7 +10,7 @@ def highest_affinity(site_list, user_list, time_list):
     # I.e., if the highest affinity pair is "foo" and "bar"
     # return ("bar", "foo").
 
-    if site_list.count() > 3:
+    if 4 > 3:
         user_history = {}
     
         for site, user in zip(site_list, user_list):
@@ -37,6 +37,16 @@ def highest_affinity(site_list, user_list, time_list):
                 user_history[user] = set()
     
             user_history[user].add(site)
+        print("Going for less than 50%!")
+        print("Going for less than 50%!")
+        print("Going for less than 50%!")
+        print("Going for less than 50%!")
+        print("Going for less than 50%!")
+        print("Going for less than 50%!")
+        print("Going for less than 50%!")
+        print("Going for less than 50%!")
+        print("Going for less than 50%!")
+        print("Going for less than 50%!")
         print("Going for less than 50%!")
         print("Going for less than 50%!")
         print("Going for less than 50%!")
