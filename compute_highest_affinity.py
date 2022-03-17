@@ -47,12 +47,7 @@ def highest_affinity(site_list, user_list, time_list):
         print("Going for less than 50%!")
         print("Going for less than 50%!")
         print("Going for less than 50%!")
-        print("Going for less than 50%!")
-        print("Going for less than 50%!")
-        print("Going for less than 50%!")
-        print("Going for less than 50%!")
-        print("Going for less than 50%!")
-        print("Going for less than 50%!")
+
         
         affinities = {}
         for user, history in user_history.items():
