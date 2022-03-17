@@ -1,6 +1,5 @@
 import unittest
-import os.path
-import compute_highest_affinity
+import affinityJenkins.compute_highest_affinity as compute_highest_affinity
 
 class ControlledTests(unittest.TestCase):
 
@@ -16,6 +15,3 @@ class ControlledTests(unittest.TestCase):
         expected_result = ("a.com", "b.com")
 
         self.assertEqual(computed_result, expected_result)
-
-if __name__ == '__main__':
-    unittest.main()
